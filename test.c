@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 #include <string.h>
 
 void escapeWhiteSpace(char* str, char replaceChar) {
@@ -10,6 +11,7 @@ void escapeWhiteSpace(char* str, char replaceChar) {
         }
     }
 }
+
 
 void unescapeWhiteSpace(char* str, char replaceChar) {
     int len = strlen(str);
